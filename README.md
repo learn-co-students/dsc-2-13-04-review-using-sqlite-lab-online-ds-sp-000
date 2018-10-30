@@ -1,5 +1,5 @@
 
-# More SQL Queries - Lab
+# Review: Using Sqlite - Lab
 
 ## Introduction
 
@@ -7,12 +7,14 @@ In this lab, we will1 write more `SELECT` statements to review everything we've 
 
 ## Objectives
 
-1. Solidify our ability to interact with SQL databases by writing more `SELECT` statements
-2. Use `SELECT` with `ORDER BY` and `DESC`/`ASC` to order our results by the values of a specific column
-3. Use `LIMIT` to select only a certain number of rows
-4. Use `BETWEEN` to obtain results that fit between specified values
+You will be able to:
 
-### Famous Dogs
+- Solidify our ability to interact with SQL databases by writing more `SELECT` statements
+- Use `SELECT` with `ORDER BY` and `DESC`/`ASC` to order our results by the values of a specific column
+- Use `LIMIT` to select only a certain number of rows
+- Use `BETWEEN` to obtain results that fit between specified values
+
+## Famous Dogs
 
 We have a database full of famous dogs!  The `dogs` table is populated with the following data:
 
@@ -28,7 +30,7 @@ We have a database full of famous dogs!  The `dogs` table is populated with the 
 |Snowy     |8      |F      |fox terrier     |adventurous|0      |
 |NULL      |4      |M      |golden retriever|playful    |1      |
 
-### Connect to SQL Database with Python
+## Connect to SQL Database with Python
 
 Before we can query the `dogs.db` database, we need to connect to it.  In the cell below:
 
